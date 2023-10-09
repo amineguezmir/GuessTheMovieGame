@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Guess The Movie</title>
+  </head>
+  <body>
+    <div>
+      <img class="img" src="images/unnamed.png" alt="image" />
+      <img
+        class="img2"
+        src="images/pngtree-film-logo-design-template-vector-isolated-illustration-png-image_1693431.jpg"
+        alt="image2"
+      />
+    </div>
+    <center>
+        <!-- The <center> tag is used to center-align the content within it. -->
+      <h4 id="a">you have 10 seconds to guess</h4>
+      <button class="styled" id="b" onclick="guess()">START</button>
+      <div id="starter">00:00:00</div>
+      <h1><b> From what movie is this Quote ?</b></h1>
+      <h3 id="h"></h3>
+      <div id="maDivision">
+        <legend>Select the movie:</legend>
+        <div>
+          <input
+            type="radio"
+            class="s"
+            name="drone"
+            value="Star Wars"
+            id="starWars"
+          />
+          <label for="starWars">Star Wars</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            class="s"
+            name="drone"
+            value="The Wizard Of OZ"
+            id="wizardOfOz"
+          />
+          <label for="wizardOfOz">The Wizard of OZ</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            class="s"
+            name="drone"
+            value="The Godfather II"
+            id="godfatherII"
+          />
+          <label for="godfatherII">The Godfather II</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            class="s"
+            name="drone"
+            value="When Harry met Sally"
+            id="harryMetSally"
+          />
+          <label for="harryMetSally">When Harry met Sally</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            class="s"
+            name="drone"
+            value="Forrest Gump"
+            id="forrestGump"
+          />
+          <label for="forrestGump">Forrest Gump</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            class="s"
+            name="drone"
+            value="Taxi Driver"
+            id="taxiDriver"
+          />
+          <label for="taxiDriver">Taxi Driver</label>
+        </div>
+      </div>
+    </center>
+    <div id="b2">
+      <p id="help"></p>
+      <button id="v2" class="styled">help</button>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        // The provided inline jQuery code shows or hides the elements with id="a" and id="b" initially.
+      $("#a").show();
+      $("#b").show();
+    </script>
+  </body>
+</html>
