@@ -57,4 +57,7 @@ You can customize the game by modifying the `quotes` array in the JavaScript cod
 
 Have fun playing "Guess The Movie" and test your knowledge of famous movie quotes!
 
+https://github.com/amineguezmir/GuessTheMovieGame/assets/144438572/207ec79d-4310-4c85-802c-911d81fb3737
+
+
 
